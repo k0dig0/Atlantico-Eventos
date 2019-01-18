@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B98B75321F1E28700D274E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98B75221F1E28700D274E4 /* AppDelegate.swift */; };
+		8B98B75521F1E28700D274E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98B75421F1E28700D274E4 /* ViewController.swift */; };
+		8B98B75821F1E28700D274E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B98B75621F1E28700D274E4 /* Main.storyboard */; };
+		8B98B75B21F1E28700D274E4 /* Atlantico_Eventos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B98B75921F1E28700D274E4 /* Atlantico_Eventos.xcdatamodeld */; };
+		8B98B75D21F1E28800D274E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98B75C21F1E28800D274E4 /* Assets.xcassets */; };
+		8B98B76021F1E28800D274E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B98B75E21F1E28800D274E4 /* LaunchScreen.storyboard */; };
+		8B98B76B21F1E28900D274E4 /* Atlantico_EventosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98B76A21F1E28900D274E4 /* Atlantico_EventosTests.swift */; };
+		8B98B77621F1E28900D274E4 /* Atlantico_EventosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98B77521F1E28900D274E4 /* Atlantico_EventosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B98B76721F1E28900D274E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B98B74721F1E28600D274E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B98B74E21F1E28700D274E4;
+			remoteInfo = "Atlantico Eventos";
+		};
+		8B98B77221F1E28900D274E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B98B74721F1E28600D274E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B98B74E21F1E28700D274E4;
+			remoteInfo = "Atlantico Eventos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B98B74F21F1E28700D274E4 /* Atlantico Eventos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atlantico Eventos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B98B75221F1E28700D274E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B98B75421F1E28700D274E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B98B75721F1E28700D274E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B98B75A21F1E28700D274E4 /* Atlantico_Eventos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atlantico_Eventos.xcdatamodel; sourceTree = "<group>"; };
+		8B98B75C21F1E28800D274E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B98B75F21F1E28800D274E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B98B76121F1E28800D274E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B98B76621F1E28900D274E4 /* Atlantico EventosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atlantico EventosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B98B76A21F1E28900D274E4 /* Atlantico_EventosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlantico_EventosTests.swift; sourceTree = "<group>"; };
+		8B98B76C21F1E28900D274E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B98B77121F1E28900D274E4 /* Atlantico EventosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atlantico EventosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B98B77521F1E28900D274E4 /* Atlantico_EventosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlantico_EventosUITests.swift; sourceTree = "<group>"; };
+		8B98B77721F1E28900D274E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B98B74C21F1E28700D274E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98B76321F1E28900D274E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98B76E21F1E28900D274E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B98B74621F1E28600D274E4 = {
+			isa = PBXGroup;
+			children = (
+				8B98B75121F1E28700D274E4 /* Atlantico Eventos */,
+				8B98B76921F1E28900D274E4 /* Atlantico EventosTests */,
+				8B98B77421F1E28900D274E4 /* Atlantico EventosUITests */,
+				8B98B75021F1E28700D274E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B98B75021F1E28700D274E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B98B74F21F1E28700D274E4 /* Atlantico Eventos.app */,
+				8B98B76621F1E28900D274E4 /* Atlantico EventosTests.xctest */,
+				8B98B77121F1E28900D274E4 /* Atlantico EventosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B98B75121F1E28700D274E4 /* Atlantico Eventos */ = {
+			isa = PBXGroup;
+			children = (
+				8B98B75221F1E28700D274E4 /* AppDelegate.swift */,
+				8B98B75421F1E28700D274E4 /* ViewController.swift */,
+				8B98B75621F1E28700D274E4 /* Main.storyboard */,
+				8B98B75C21F1E28800D274E4 /* Assets.xcassets */,
+				8B98B75E21F1E28800D274E4 /* LaunchScreen.storyboard */,
+				8B98B76121F1E28800D274E4 /* Info.plist */,
+				8B98B75921F1E28700D274E4 /* Atlantico_Eventos.xcdatamodeld */,
+			);
+			path = "Atlantico Eventos";
+			sourceTree = "<group>";
+		};
+		8B98B76921F1E28900D274E4 /* Atlantico EventosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B98B76A21F1E28900D274E4 /* Atlantico_EventosTests.swift */,
+				8B98B76C21F1E28900D274E4 /* Info.plist */,
+			);
+			path = "Atlantico EventosTests";
+			sourceTree = "<group>";
+		};
+		8B98B77421F1E28900D274E4 /* Atlantico EventosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B98B77521F1E28900D274E4 /* Atlantico_EventosUITests.swift */,
+				8B98B77721F1E28900D274E4 /* Info.plist */,
+			);
+			path = "Atlantico EventosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B98B74E21F1E28700D274E4 /* Atlantico Eventos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B98B77A21F1E28900D274E4 /* Build configuration list for PBXNativeTarget "Atlantico Eventos" */;
+			buildPhases = (
+				8B98B74B21F1E28700D274E4 /* Sources */,
+				8B98B74C21F1E28700D274E4 /* Frameworks */,
+				8B98B74D21F1E28700D274E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Atlantico Eventos";
+			productName = "Atlantico Eventos";
+			productReference = 8B98B74F21F1E28700D274E4 /* Atlantico Eventos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B98B76521F1E28900D274E4 /* Atlantico EventosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B98B77D21F1E28900D274E4 /* Build configuration list for PBXNativeTarget "Atlantico EventosTests" */;
+			buildPhases = (
+				8B98B76221F1E28900D274E4 /* Sources */,
+				8B98B76321F1E28900D274E4 /* Frameworks */,
+				8B98B76421F1E28900D274E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B98B76821F1E28900D274E4 /* PBXTargetDependency */,
+			);
+			name = "Atlantico EventosTests";
+			productName = "Atlantico EventosTests";
+			productReference = 8B98B76621F1E28900D274E4 /* Atlantico EventosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B98B77021F1E28900D274E4 /* Atlantico EventosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B98B78021F1E28900D274E4 /* Build configuration list for PBXNativeTarget "Atlantico EventosUITests" */;
+			buildPhases = (
+				8B98B76D21F1E28900D274E4 /* Sources */,
+				8B98B76E21F1E28900D274E4 /* Frameworks */,
+				8B98B76F21F1E28900D274E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B98B77321F1E28900D274E4 /* PBXTargetDependency */,
+			);
+			name = "Atlantico EventosUITests";
+			productName = "Atlantico EventosUITests";
+			productReference = 8B98B77121F1E28900D274E4 /* Atlantico EventosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B98B74721F1E28600D274E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = INOKRI;
+				TargetAttributes = {
+					8B98B74E21F1E28700D274E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8B98B76521F1E28900D274E4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B98B74E21F1E28700D274E4;
+					};
+					8B98B77021F1E28900D274E4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B98B74E21F1E28700D274E4;
+					};
+				};
+			};
+			buildConfigurationList = 8B98B74A21F1E28700D274E4 /* Build configuration list for PBXProject "Atlantico Eventos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B98B74621F1E28600D274E4;
+			productRefGroup = 8B98B75021F1E28700D274E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B98B74E21F1E28700D274E4 /* Atlantico Eventos */,
+				8B98B76521F1E28900D274E4 /* Atlantico EventosTests */,
+				8B98B77021F1E28900D274E4 /* Atlantico EventosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B98B74D21F1E28700D274E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B98B76021F1E28800D274E4 /* LaunchScreen.storyboard in Resources */,
+				8B98B75D21F1E28800D274E4 /* Assets.xcassets in Resources */,
+				8B98B75821F1E28700D274E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98B76421F1E28900D274E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98B76F21F1E28900D274E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B98B74B21F1E28700D274E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B98B75521F1E28700D274E4 /* ViewController.swift in Sources */,
+				8B98B75B21F1E28700D274E4 /* Atlantico_Eventos.xcdatamodeld in Sources */,
+				8B98B75321F1E28700D274E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98B76221F1E28900D274E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B98B76B21F1E28900D274E4 /* Atlantico_EventosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98B76D21F1E28900D274E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B98B77621F1E28900D274E4 /* Atlantico_EventosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B98B76821F1E28900D274E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B98B74E21F1E28700D274E4 /* Atlantico Eventos */;
+			targetProxy = 8B98B76721F1E28900D274E4 /* PBXContainerItemProxy */;
+		};
+		8B98B77321F1E28900D274E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B98B74E21F1E28700D274E4 /* Atlantico Eventos */;
+			targetProxy = 8B98B77221F1E28900D274E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B98B75621F1E28700D274E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B98B75721F1E28700D274E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B98B75E21F1E28800D274E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B98B75F21F1E28800D274E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B98B77821F1E28900D274E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B98B77921F1E28900D274E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B98B77B21F1E28900D274E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA4RRM66V;
+				INFOPLIST_FILE = "Atlantico Eventos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inokri.Atlantico-Eventos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B98B77C21F1E28900D274E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA4RRM66V;
+				INFOPLIST_FILE = "Atlantico Eventos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inokri.Atlantico-Eventos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B98B77E21F1E28900D274E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA4RRM66V;
+				INFOPLIST_FILE = "Atlantico EventosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inokri.Atlantico-EventosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atlantico Eventos.app/Atlantico Eventos";
+			};
+			name = Debug;
+		};
+		8B98B77F21F1E28900D274E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA4RRM66V;
+				INFOPLIST_FILE = "Atlantico EventosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inokri.Atlantico-EventosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atlantico Eventos.app/Atlantico Eventos";
+			};
+			name = Release;
+		};
+		8B98B78121F1E28900D274E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA4RRM66V;
+				INFOPLIST_FILE = "Atlantico EventosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inokri.Atlantico-EventosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Atlantico Eventos";
+			};
+			name = Debug;
+		};
+		8B98B78221F1E28900D274E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XA4RRM66V;
+				INFOPLIST_FILE = "Atlantico EventosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inokri.Atlantico-EventosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Atlantico Eventos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B98B74A21F1E28700D274E4 /* Build configuration list for PBXProject "Atlantico Eventos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B98B77821F1E28900D274E4 /* Debug */,
+				8B98B77921F1E28900D274E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B98B77A21F1E28900D274E4 /* Build configuration list for PBXNativeTarget "Atlantico Eventos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B98B77B21F1E28900D274E4 /* Debug */,
+				8B98B77C21F1E28900D274E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B98B77D21F1E28900D274E4 /* Build configuration list for PBXNativeTarget "Atlantico EventosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B98B77E21F1E28900D274E4 /* Debug */,
+				8B98B77F21F1E28900D274E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B98B78021F1E28900D274E4 /* Build configuration list for PBXNativeTarget "Atlantico EventosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B98B78121F1E28900D274E4 /* Debug */,
+				8B98B78221F1E28900D274E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B98B75921F1E28700D274E4 /* Atlantico_Eventos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B98B75A21F1E28700D274E4 /* Atlantico_Eventos.xcdatamodel */,
+			);
+			currentVersion = 8B98B75A21F1E28700D274E4 /* Atlantico_Eventos.xcdatamodel */;
+			path = Atlantico_Eventos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B98B74721F1E28600D274E4 /* Project object */;
+}
