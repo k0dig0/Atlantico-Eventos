@@ -8,18 +8,64 @@
 
 import UIKit
 import CoreData
-
+import Firebase
+import UserNotifications
+//import FirebaseDatabase
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate , UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+       db = Firestore.firestore()
+       // UINavigationBar.appearance().prefersLargeTitles = true
+       // UINavigationBar.appearance().largeTitleTextAttributes =
+          //  [NSAttributedString.Key.foregroundColor: UIColor.white,
+            // NSAttributedString.Key.font: UIFont(name: fontnegrito, size: 30) ??
+           //     UIFont.systemFont(ofSize: 30)];
+       
+       // UINavigationBar.appearance()
+        //UINavigationBar.appearance().setBackgroundImage(img, for: .default)
+        let bgimage = imageWithGradient(startColor: Colors.nav1, endColor: Colors.nav2, size: CGSize(width: UIScreen.main.bounds.size.width, height: 1))
+        
+        UINavigationBar.appearance().prefersLargeTitles = true
+        UINavigationBar.appearance().barTintColor = UIColor(patternImage: bgimage!)
+        UINavigationBar.appearance().largeTitleTextAttributes =
+            [NSAttributedString.Key.foregroundColor: UIColor.white,
+             NSAttributedString.Key.font: UIFont(name: fontsanBold, size: 30) ??
+                UIFont.systemFont(ofSize: 14)];
+       let center = UNUserNotificationCenter.current()
+        let options : UNAuthorizationOptions = [.sound , .alert]
+        center.requestAuthorization(options: options) { (granted, error) in
+            if error != nil {
+                print("Erro")
+            }
+        }
+      center.delegate = self
         return true
     }
-
+    func imageWithGradient(startColor:UIColor, endColor:UIColor, size:CGSize, horizontally:Bool = true) -> UIImage? {
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = CGRect(x: 0, y: 0, width: size.width, height: size.height)
+        gradientLayer.colors = [startColor.cgColor, endColor.cgColor]
+        if horizontally {
+            gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+            gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        } else {
+            gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.0)
+            gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        }
+        
+        UIGraphicsBeginImageContext(gradientLayer.bounds.size)
+        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
